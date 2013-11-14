@@ -1,4 +1,4 @@
-function extract_attribute(data,attr){
+function extract_attribute(data, attr){
     /*
     Returns the array of a particular attribute/key of a JSON array
     */
@@ -23,7 +23,7 @@ function filter_data(data,fn){
     return res;
 }
 
-function count_categories(data,attr){
+function count_categories(data, attr){
     /*
     Counts the different categories in a JSON array based on the particular attribute or key
     of a JSON array 
